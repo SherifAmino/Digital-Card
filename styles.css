@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    max-height: 100vh;
+    font-family: 'Inter';
+}
+
+.top-container img {
+width: 100%;
+height: 50%;
+
+}
+
+.mid-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(45deg, #EAE6E5, transparent),
+    repeating-linear-gradient(45deg, #C7E5CD 0%, #C7E5CD 15%, transparent 5%, transparent 10%),
+     repeating-linear-gradient(-45deg, #EAE6E5 0%, #EAE6E5 15%, transparent 5%, transparent 10%);
+}
+
+.profile-picture {
+    margin: 10px 0;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border: 4px solid black;
+    border-radius: 100%;
+}
+
+.contactInfo {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contactInfo a {
+    text-decoration: none;
+    color: black;
+}
+.contactInfo img {
+    width: 70px;
+    height: 70px;
+}
+
+
